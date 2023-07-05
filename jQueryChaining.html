@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").css("color", "red").slideUp(1000).slideDown(2000);
+  });
+});
+</script>
+</head>
+<body>
+<h1>Click this button to change the color of the text and slide up for 1 second and then slide down for 2 second</h1>
+<button>Click me</button>
+
+<p>This is a paragraph with little content.</p>
+
+</body>
+</html>
